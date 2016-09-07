@@ -4,6 +4,10 @@
 
 在畫面上呈現提示訊息的效果
 
+<b>原理</b>
+
+設定進場及退場的style狀態後，使用css transition或javascript做漸變效果
+
 <b>使用</b>
 
 引入toast.css樣式及toast.js模組
