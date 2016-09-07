@@ -8,6 +8,8 @@
 
 設定進場及退場的style狀態後，使用css transition或javascript做漸變效果
 
+<hr>
+
 <b>使用</b>
 
 引入toast.css樣式及toast.js模組
@@ -49,6 +51,7 @@ short	| 出現提示訊息(停留較短, 預設為3秒)
 long	| 出現提示訊息(停留較短, 預設為6秒)
 closeMe | 立即結束提示效果
 
+<hr>
 
 <b>範例</b>
 ```javascript
@@ -73,6 +76,9 @@ var configData = {
 };
 var toast = new Toast("Welcome!", configData);
 ```
+
+<hr>
+
 <b>DEMO:</b>
 
 
