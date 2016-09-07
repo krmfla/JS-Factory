@@ -6,13 +6,13 @@
 
 <b>使用</b>
 
-1.引入toast.css樣式及toast.js模組
+引入toast.css樣式及toast.js模組
 
 ```javascript
 <link rel="stylesheet" href="toast.css">
 <script type="text/javascript" src="toast.js"></script>
 ```
-2.語法
+語法
 
 ```javascript
 var toast = new Toast("YOUR TEXT", CONFIG-OBJECT);
@@ -44,7 +44,7 @@ var config = {
   "longTime": DURATION(millisecond)  //自定出現時間長度(長)
 };
 ```
-範例
+<b>範例</b>
 ```javascript
 //使用預設效果
 var toast = new Toast("Welcome!");
@@ -67,6 +67,6 @@ var configData = {
 };
 var toast = new Toast("Welcome!", configData);
 ```
-3.DEMO:
+<b>DEMO:</b>
 
 
