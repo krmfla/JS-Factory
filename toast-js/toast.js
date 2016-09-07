@@ -166,7 +166,7 @@ function Toast(text, customObj) {
         show(longTime)
     }
 
-    function close() {
+    function closeMe() {
         clearTimeout(timer);
         clearInterval(ticker);
         element.style.cssText = outState;
@@ -176,6 +176,6 @@ function Toast(text, customObj) {
     return {
         "short": short,
         "long": long,
-        "close": close
+        "closeMe": closeMe
     };
 }
