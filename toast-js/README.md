@@ -18,6 +18,7 @@
 var toast = new Toast("YOUR TEXT", CONFIG-OBJECT);
 toast.short();
 toast.long();
+toast.close();
 ```
 CONFIG-OBJECT
 ```javascript
