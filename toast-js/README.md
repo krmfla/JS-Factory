@@ -18,8 +18,16 @@
 var toast = new Toast("YOUR TEXT", CONFIG-OBJECT);
 toast.short();
 toast.long();
-toast.close();
+toast.closeMe();
 ```
+Methods
+
+Method  | Description
+------- | ---
+short	| 出現提示訊息(停留較短, 預設為3秒)
+long	| 出現提示訊息(停留較短, 預設為6秒)
+closeMe | 立即結束提示效果
+
 CONFIG-OBJECT
 ```javascript
 var config = {
