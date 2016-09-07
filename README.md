@@ -1,2 +1,2 @@
-# js-factory
+# JS Factory
 create javascript component
