@@ -24,15 +24,7 @@ toast.short();
 toast.long();
 toast.closeMe();
 ```
-Methods
-
-Method  | Description
-------- | ---
-short	| 出現提示訊息(停留較短, 預設為3秒)
-long	| 出現提示訊息(停留較短, 預設為6秒)
-closeMe | 立即結束提示效果
-
-CONFIG-OBJECT
+CONFIG-OBJECT(optional)
 ```javascript
 var config = {
   "targetEl": "ELEMNET ID",  //要將提示訊息貼到哪個DOM id上 (預設為body)
@@ -48,6 +40,16 @@ var config = {
   "longTime": DURATION(millisecond)  //自定出現時間長度(長)
 };
 ```
+
+Methods
+
+Method  | Description
+------- | ---
+short	| 出現提示訊息(停留較短, 預設為3秒)
+long	| 出現提示訊息(停留較短, 預設為6秒)
+closeMe | 立即結束提示效果
+
+
 <b>範例</b>
 ```javascript
 //使用預設效果
