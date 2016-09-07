@@ -29,17 +29,17 @@ toast.closeMe();
 CONFIG-OBJECT(optional)
 ```javascript
 var config = {
-  "targetEl": "ELEMNET ID",  //要將提示訊息貼到哪個DOM id上 (預設為body)
-  "style": "STYLE",  //可使用預設的style: "slide"或"fadeInOut"
-  "inState": {  //進入效果
+  "targetEl": "ELEMNET ID",            //要將提示訊息貼到哪個DOM id上
+  "style": "STYLE",                    //可使用預設的style: "slide"或"fadeInOut"
+  "inState": {                         //進入效果
     "PROPERTY": "VALUE"
   },
-  "outState": {  //退出效果
+  "outState": {                        //退出效果
     "PROPERTY": "VALUE"
   },
-  "speed": DURATION(millisecond),  //動畫速率
+  "speed": DURATION(millisecond),      //動畫速率
   "shortTime": DURATION(millisecond),  //自定出現時間長度(短)
-  "longTime": DURATION(millisecond)  //自定出現時間長度(長)
+  "longTime": DURATION(millisecond)    //自定出現時間長度(長)
 };
 ```
 
