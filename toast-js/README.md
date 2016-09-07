@@ -81,4 +81,6 @@ var toast = new Toast("Welcome!", configData);
 
 <b>DEMO:</b>
 
+https://krmfla.github.io/example/toast-js/index.html
+
 
