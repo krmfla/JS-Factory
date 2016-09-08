@@ -83,4 +83,9 @@ var toast = new Toast("Welcome!", configData);
 
 https://krmfla.github.io/example/toast-js/index.html
 
+<hr>
 
+<b>預計更新</b>
+- [ ] 單體模式
+- [ ] 可置換文字內容及設定檔
+- [ ] 多任務排程
