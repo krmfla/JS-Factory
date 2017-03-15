@@ -1,16 +1,16 @@
-#toast.js
+# toast.js
 
-<b>功能描述</b>
+**功能描述**
 
 在畫面上呈現提示訊息的效果
 
-<b>原理</b>
+**原理**
 
 設定進場及退場的style狀態後，使用css transition或javascript做漸變效果
 
-<hr>
+<br />
 
-<b>使用</b>
+**使用**
 
 引入toast.css樣式及toast.js模組
 
@@ -51,9 +51,9 @@ short	| 出現提示訊息(停留較短, 預設為3秒)
 long	| 出現提示訊息(停留較短, 預設為6秒)
 closeMe | 立即結束提示效果
 
-<hr>
+<br />
 
-<b>範例</b>
+**範例**
 ```javascript
 //使用預設效果
 var toast = new Toast("Welcome!");
@@ -77,15 +77,15 @@ var configData = {
 var toast = new Toast("Welcome!", configData);
 ```
 
-<hr>
+<br />
 
-<b>DEMO:</b>
+**DEMO:**
 
 https://krmfla.github.io/example/toast-js/index.html
 
-<hr>
+<br />
 
-<b>預計更新</b>
+**預計更新**
 - [ ] 單體模式
 - [ ] 可置換文字內容及設定檔
 - [ ] 多任務排程
