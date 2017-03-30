@@ -1,14 +1,3 @@
-//add your firebase config clip
-/*
-var config = {
-  apiKey: APIKEY,
-  authDomain: AUTH_DOMAIN, 
-  databaseURL: DATABASE_URL,
-  storageBucket: STORAGE_BUCKET,
-  messagingSenderId: MESSAGING_SENDER_ID
-};
-firebase.initializeApp(config);
-*/
 var FirebaseLog = (function() {
     var refValue = null;
 
@@ -94,5 +83,5 @@ var FirebaseLog = (function() {
 FirebaseLog.log("text1", "A01");
 setTimeout(function() {
     FirebaseLog.remove("A01");
-}, 8000);
+}, 5000);
 */
