@@ -28,7 +28,7 @@ var FirebaseLog = (function() {
             });
     }
 
-    //=== get key from this time ===
+    //=== get key from current time ===
     function getTime() {
         var date = new Date();
         var currentTime = "" + date.getFullYear() +
