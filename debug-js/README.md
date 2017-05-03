@@ -22,15 +22,15 @@ https://krmfla.github.io/example/debug-js/debug.js
 <b>語法</b>
 ```javascript
 var debug;
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function() {
   debug = new Debug;
   debug.log("TRACE MESSAGE");
 });
 ```
 
-預設會將trace message，貼於body tag上
+預設會將trace message的外層，貼於body tag上
 
-若要指定位置，則代入DOM物件的id
+若要指定位置，需帶入DOM物件的id
 ```javascript
 var debug = new Debug("ELEMENT_ID");
 ```
