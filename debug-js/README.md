@@ -9,12 +9,15 @@
 https://krmfla.github.io/example/debug-js/debug.js
 ```
 
+<br />
+
 ## 使用
 
 <b>載入component</b>
 ```javascript
 <script type="text/javascript" src="debug.js"></script>
 ```
+<br />
 
 <b>語法</b>
 ```javascript
@@ -32,12 +35,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 var debug = new Debug("ELEMENT_ID");
 ```
 
+<br />
+
 <b>計時器</b>
 ```javascript
 debug.start(); //啟動計時器
 
 debug.end(); //結算經過的時間
 ```
+
+<br />
 
 <b>自定義樣式</b>
 
@@ -62,6 +69,8 @@ debug.setItem({
 })
 ```
 
+<br />
+
 <b>Method</b>
 
 Method        | Description
@@ -72,7 +81,9 @@ end           | 停止計時器，並計算經過時間(ms)
 setBackground | 設定外層樣式
 setItem       | 設定log message樣式
 
-**已更新**
+<br />
+
+<b>已更新</b>
 
 2017.5.3
 - [x] 可自訂樣式(文字大小，顏色)
