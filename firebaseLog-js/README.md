@@ -4,9 +4,9 @@
 
 利用firebase做紀錄追蹤的功能
 
-<br />
+<br>
 
-<b>使用</b>
+<b>引入</b>
 
 在firebase上建立專案後，透過API引入
 
@@ -30,14 +30,16 @@
 </script>
 ```
 
-<br />
+<br>
 
 firebaseLog.js CDN Code
 ```html
 <script src="https://krmfla.github.io/example/firebaseLog-js/FirebaseLog.js"></script>
 ```
 
-<br />
+<br>
+
+<b>使用</b>
 
 語法
 
@@ -54,6 +56,7 @@ FirebaseLog.remove("DATA_KEY");
 
 TRACE_MESSAGE可以是字串、數值、陣列、物件...
 
+<br>
 
 Method
 
@@ -62,6 +65,8 @@ Method | Description
 log    | 將紀錄存於firebase中 <br /> 若未定義DATA_KEY，會自動產生一組key
 set    | 將新的資料覆蓋掉舊有資料
 remove | 將firebase中的紀錄刪除
+
+<br>
 
 <b>data type</b>
 
@@ -73,7 +78,7 @@ remove | 將firebase中的紀錄刪除
  //       └ LOG_TIME : "message"
 ```
 
-<br />
+<br>
 
 ```javascript
 FirebaseLog.log("message", "A1");
