@@ -9,7 +9,7 @@
 https://krmfla.github.io/example/debug-js/debug.js
 ```
 
-<br />
+<br>
 
 ## 使用
 
@@ -17,7 +17,7 @@ https://krmfla.github.io/example/debug-js/debug.js
 ```javascript
 <script type="text/javascript" src="https://krmfla.github.io/example/debug-js/debug.js"></script>
 ```
-<br />
+<br>
 
 <b>語法</b>
 ```javascript
@@ -35,16 +35,20 @@ document.addEventListener("DOMContentLoaded", function() {
 var debug = new Debug("ELEMENT_ID");
 ```
 
-<br />
+<br>
 
 <b>計時器</b>
 ```javascript
 debug.start(); //啟動計時器
 
 debug.end(); //結算經過的時間
+
+// print
+// >>> Timer Start >>>
+// >>> process: 1594ms >>>
 ```
 
-<br />
+<br>
 
 <b>自定義樣式</b>
 
@@ -69,19 +73,37 @@ debug.setItem({
 })
 ```
 
-<br />
+<br>
+
+<b>Error Handle</b>
+
+當程式發生錯誤時，會印出log
+```
+Error: Uncaught ReferenceError: ttt is not defined
+Script: main.js
+Line: 62
+```
+
+也可以自訂Error Handle
+```javascript
+window.onerror = function(errorMsg, url, lineNumber) {
+  debug.log(errorMsg);
+  //...
+}
+```
+
 
 <b>Method</b>
 
-Method        | Description
-------------- | ------------------
-log           | 印出追蹤訊息
-start         | 啟動計時器
-end           | 停止計時器，並計算經過時間(ms)
-setBackground | 設定外層樣式
-setItem       | 設定log message樣式
+Method         | Description
+-------------- | ------------------
+log            | 印出追蹤訊息
+start          | 啟動計時器
+end            | 停止計時器，並計算經過時間(ms)
+setBackground  | 設定外層樣式
+setItem        | 設定log message樣式
 
-<br />
+<br>
 
 <b>已更新</b>
 
