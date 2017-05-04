@@ -112,5 +112,3 @@ setItem        | 設定log message樣式
 - [x] 可自訂父層位置
 
 <b>待更新</b>
-
-- [ ] onError callback
