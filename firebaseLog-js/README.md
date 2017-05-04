@@ -32,9 +32,21 @@
 
 <br>
 
-firebaseLog.js CDN Code
+FirebaseLog.js CDN Code
 ```html
 <script src="https://krmfla.github.io/example/firebaseLog-js/FirebaseLog.js"></script>
+```
+
+<br>
+
+若要不限制讀寫權限, 需在firebase中將規則改為
+```
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
 ```
 
 <br>
