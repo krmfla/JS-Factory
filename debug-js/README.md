@@ -87,7 +87,9 @@ Line: 62
 也可以自訂Error Handle
 ```javascript
 window.onerror = function(errorMsg, url, lineNumber) {
-  debug.log(errorMsg);
+  debug.log('Error: ' + errorMsg);
+  debug.log('Script: ' + url);
+  debug.log('Line: ' + lineNumber);
   //...
 }
 ```
