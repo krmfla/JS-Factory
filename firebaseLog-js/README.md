@@ -87,3 +87,11 @@ FirebaseLog.log("message", "A1");
  //   └ A1
  //      └ LOG_TIME : "message"
 ```
+<br>
+
+```javascript
+ FirebaseLog.set("message", "A2");
+ 
+ // PROJECT_NAME
+ //   └ A2 : "message"
+```
