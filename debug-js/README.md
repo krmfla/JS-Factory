@@ -88,3 +88,7 @@ setItem       | 設定log message樣式
 2017.5.3
 - [x] 可自訂樣式(文字大小，顏色)
 - [x] 可自訂父層位置
+
+<b>待更新</b>
+
+- [ ] onError callback
