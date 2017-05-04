@@ -62,8 +62,8 @@ Method
 
 Method | Description
 ------ | -----------
-log    | 將紀錄存於firebase中 <br /> 若未定義DATA_KEY，會自動產生一組key
-set    | 將新的資料覆蓋掉舊有資料
+log    | 將紀錄存於firebase中 <br> 若未定義DATA_KEY，會自動產生一組<br>資料會以寫入時間排序
+set    | 將新的資料寫入或覆蓋掉舊有資料
 remove | 將firebase中的紀錄刪除
 
 <br>
