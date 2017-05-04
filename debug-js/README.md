@@ -15,7 +15,7 @@ https://krmfla.github.io/example/debug-js/debug.js
 
 <b>載入component</b>
 ```javascript
-<script type="text/javascript" src="debug.js"></script>
+<script type="text/javascript" src="https://krmfla.github.io/example/debug-js/debug.js"></script>
 ```
 <br />
 
