@@ -6,11 +6,14 @@
 
 <b>使用</b>
 
-引入
+在firebase上建立專案後，透過API引入
+
+設定 > 一般 > 將 Firebase 加入您的網路應用程式
+
+![banner](https://github.com/krmfla/JS-Factory/blob/master/firebaseLog-js/setting.jpg "Firebase")
 
 ```html
 <!-- 引入firebase.js及project config -->
-<!-- 設定 > 一般 > 將 Firebase 加入您的網路應用程式 -->
 <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -23,10 +26,13 @@
   };
   firebase.initializeApp(config);
 </script>
+```
 
-<!-- cdn code -->
+cdn code
+```html
 <script src="https://krmfla.github.io/example/firebaseLog-js/FirebaseLog.js"></script>
 ```
+
 語法
 
 ```javascript
