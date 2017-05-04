@@ -4,6 +4,8 @@
 
 利用firebase做紀錄追蹤的功能
 
+<br />
+
 <b>使用</b>
 
 在firebase上建立專案後，透過API引入
@@ -28,10 +30,14 @@
 </script>
 ```
 
+<br />
+
 cdn code
 ```html
 <script src="https://krmfla.github.io/example/firebaseLog-js/FirebaseLog.js"></script>
 ```
+
+<br />
 
 語法
 
