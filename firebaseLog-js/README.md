@@ -32,7 +32,7 @@
 
 <br />
 
-cdn code
+firebaseLog.js CDN Code
 ```html
 <script src="https://krmfla.github.io/example/firebaseLog-js/FirebaseLog.js"></script>
 ```
