@@ -43,15 +43,38 @@ firebaseLog.js CDN Code
 
 ```javascript
 //trace message
-FirebaseLog.log("TRACE_TEXT", "DATA_LOCATION");
+FirebaseLog.log("TRACE_MESSAGE", "DATA_KEY");
 
 //remove data
-FirebaseLog.remove("DATA_LOCATION");
+FirebaseLog.remove("DATA_KEY");
 ```
+
+TRACE_MESSAGE可以是字串、數值、陣列、物件...
+
 
 Method
 
 Method | Description
 ------ | -----------
-log    | 將紀錄存於firebase中 <br /> 若未定義DATA_LOCATION，會自動產生一組key
+log    | 將紀錄存於firebase中 <br /> 若未定義DATA_KEY，會自動產生一組key
 remove | 將firebase中的紀錄刪除
+
+<b>data type</b>
+
+```javascript
+ FirebaseLog.log("message");
+ 
+ // PROJECT_NAME
+ //   └ RANDOM_CHARACTER_KEY
+ //       └ LOG_TIME : "message"
+```
+
+<br />
+
+```javascript
+FirebaseLog.log("message", "A1");
+
+ // PROJECT_NAME
+ //   └ A1
+ //      └ LOG_TIME : "message"
+```
