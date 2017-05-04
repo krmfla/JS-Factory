@@ -45,6 +45,9 @@ firebaseLog.js CDN Code
 //trace message
 FirebaseLog.log("TRACE_MESSAGE", "DATA_KEY");
 
+//set/rewrite data 
+FirebaseLog.set("TRACE_MESSAGE", "DATA_KEY");
+
 //remove data
 FirebaseLog.remove("DATA_KEY");
 ```
@@ -56,7 +59,8 @@ Method
 
 Method | Description
 ------ | -----------
-log    | 將紀錄存於firebase中 <br /> 若未定義DATA_KEY，會自動產生一組key
+log    | 將紀錄存於firebase中 <br /> 若未定義DATA_KEY，會自動產生一組key
+set    | 將新的資料覆蓋掉舊有資料
 remove | 將firebase中的紀錄刪除
 
 <b>data type</b>
