@@ -60,7 +60,7 @@ FirebaseLog.js CDN Code
 FirebaseLog.log("TRACE_MESSAGE", "DATA_KEY");
 
 //set/rewrite data 
-FirebaseLog.set("TRACE_MESSAGE", "DATA_KEY");
+FirebaseLog.set("NEW_MESSAGE", "DATA_KEY");
 
 //remove data
 FirebaseLog.remove("DATA_KEY");
