@@ -14,7 +14,7 @@
 
 引入toast.css樣式及toast.js模組
 
-```javascript
+```html
 <link rel="stylesheet" href="toast.css">
 <script type="text/javascript" src="toast.js"></script>
 ```
