@@ -29,8 +29,11 @@ function Deep_clone(object){
   }
   return new_obj;
 }
+```
 
-// sample code
+sample code
+
+```js
 var a = {
   'number': 1,
   'string': 'is A',
@@ -72,7 +75,9 @@ a.date = new Date(900000000000);
 console.log(a);
 console.log(b);
 
-// By doing this you will lose any Javascript property that has no equivalent type in JSON, like Function or Infinity. Any property that’s assigned to undefined will be ignored by JSON.stringify, causing them to be missed on the cloned object.
+// By doing this you will lose any Javascript property that has no equivalent type in JSON, 
+// like Function or Infinity. Any property that’s assigned to undefined will be ignored by JSON.stringify, 
+// causing them to be missed on the cloned object.
 var c = JSON.parse(JSON.stringify(b));
 c.string = 'is C'
 console.log(c);
